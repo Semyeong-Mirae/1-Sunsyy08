@@ -23,10 +23,10 @@ public class Main {
     public static void main(String[] args){
         SimpleCalculator calc = new SimpleCalculator();
         Scanner sc = new Scanner(System.in);
-        System.out.print("A를 입력하세요.");
+        System.out.print("A");
         int num = sc.nextInt();
 
-        System.out.print("B를 입력하세요.");
+        System.out.print("B");
         int num1 = sc.nextInt();
 
         System.out.println(calc.add(num, num1));
